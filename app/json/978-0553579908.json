@@ -1,0 +1,13 @@
+{
+  "id" : "978-0553579908",
+  "cat" : ["book","paperback"],
+  "name" : "A Clash of Kings",
+  "author" : "George R.R. Martin",
+  "series_t" : "A Song of Ice and Fire",
+  "sequence_i" : 2,
+  "genre" : { "id":3, "name": "Fantasy"},
+  "inStock" : true,
+  "price" : 7.99,
+  "pages_i" : 470,
+  "description" : "A Clash of Kings is the second novel in A Song of Ice and Fire, an epic fantasy series by American author George R. R. Martin expected to consist of seven volumes. It was first published on 16 November 1998 in the United Kingdom, although the first United States edition did not follow until March 1999. Like its predecessor, A Game of Thrones, it won the Locus Award (in 1999) for Best Novel and was nominated for the Nebula Award (also in 1999) for best novel. In May 2005 Meisha Merlin released a limited edition of the novel, fully illustrated by John Howe."
+}

@@ -1,0 +1,12 @@
+{
+  "id" : "978-080508049X",
+  "cat" : ["book","paperback"],
+  "name" : "The Black Cauldron",
+  "author" : "Lloyd Alexander",
+  "series_t" : "The Chronicles of Prydain",
+  "sequence_i" : 2,
+  "genre" : { "id":3, "name": "Fantasy"},
+  "inStock" : true,
+  "price" : 35.50,
+  "pages_i" : 754
+}

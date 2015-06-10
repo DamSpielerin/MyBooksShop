@@ -1,0 +1,52 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      <p>Search: <input ng-model="query"></p>
+
+      <p>Sort by:
+        <select ng-model="orderProp">
+          <option value="name">Alphabetical</option>
+          <option value="price">Price</option>
+        </select>
+      </p>
+      <div>
+        <div><label><input type="checkbox" ng-click="checkAll(allBooks)" checked="true" ng-model="allBooks" ng-init="allBooks=true"> All books</label>
+        </div>
+        <div ng-repeat="item in genres">
+          <label><input type="checkbox" ng-click="changeAllBooks(genreBool[item.id])" ng-init="genreBool[item.id]=true" ng-model="genreBool[item.id]"> {{item.name}}</label>
+        </div>
+      </div>
+      {{ json.genres }}
+    </div>
+
+    <div class="col-md-9">
+      <div class="text-info">Total books count: {{ selectedBook.length }}</div>
+      <!--Body content-->
+      <ul class="row">
+        <li ng-repeat="book in selectedBook = ( books | genresFilter: genreBool | filter:{name:query} | orderBy:orderProp)" class="thumbnail row">
+          <div class="col-sm-10">
+            <h2><a href="#/books/{{book.id}}">{{book.name}}</a></h2>
+            <ul class="list-unstyled">
+              <li><strong>By:</strong> <i>{{book.author}}</i></li>
+              <li><strong>Genre:</strong> <i>{{book.genre.name}}</i></li>
+              <li ng-show="book.series_t"><strong>Series:</strong> <i>{{book.series_t}}</i> seq:{{ book.sequence_i }}
+              </li>
+              <li><strong>Format:</strong> <i>{{book.cat[1]}}</i></li>
+              <li><strong>Pages:</strong> <i>{{book.pages_i}}</i></li>
+            </ul>
+          </div>
+          <div class="col-sm-2 text-center">
+            <h4 ng-show="book.inStock">{{book.price}} $</h4>
+            <a ng-show="book.inStock" href="{{ addToCart() }}">Add to cart</a>
+            <span ng-hide="book.inStock">Have no item</span>
+          </div>
+
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+</div>

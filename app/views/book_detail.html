@@ -1,0 +1,23 @@
+<div class="row thumbnail" style="margin: 20px">
+  <div class="col-xs-2">
+    <img ng-src="{{ imageUrl }}" class="img-thumbnail">
+  </div>
+  <div class="col-xs-9">
+    <h2>{{book.name}}</h2>
+    <ul class="list-unstyled">
+      <li><strong>By:</strong> <i>{{book.author}}</i></li>
+      <li><strong>Genre:</strong> <i>{{book.genre.name}}</i></li>
+      <li ng-show="book.series_t"><strong>Series:</strong> <i>{{book.series_t}}</i> seq:{{ book.sequence_i }}</li>
+      <li><strong>Format:</strong> <i>{{book.cat[1]}}</i></li>
+      <li><strong>Pages:</strong> <i>{{book.pages_i}}</i></li>
+      <li>{{ book.description }}</li>
+    </ul>
+
+
+  </div>
+  <div class="col-xs-1 text-info">
+    <h2 ng-show="book.inStock">{{book.price}} $</h2>
+    <a ng-show="book.inStock" href="{{ addToCart() }}" width="50">Add to cart</a>
+    <span ng-hide="book.inStock">Have no item</span>
+  </div>
+</div>

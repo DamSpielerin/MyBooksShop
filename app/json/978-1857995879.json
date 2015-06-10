@@ -1,0 +1,11 @@
+{
+  "id" : "978-1857995879",
+  "cat" : ["book","paperback"],
+  "name" : "Sophie's World : The Greek Philosophers",
+  "author" : "Jostein Gaarder",
+  "sequence_i" : 1,
+  "genre" : { "id":3, "name": "Fantasy"},
+  "inStock" : true,
+  "price" : 3.07,
+  "pages_i" : 64
+}

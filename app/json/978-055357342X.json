@@ -1,0 +1,12 @@
+{
+  "id" : "978-055357342X",
+  "cat" : ["book","paperback"],
+  "name" : "A Storm of Swords",
+  "author" : "George R.R. Martin",
+  "series_t" : "A Song of Ice and Fire",
+  "sequence_i" : 3,
+  "genre" : { "id":3, "name": "Fantasy"},
+  "inStock" : true,
+  "price" : 7.99,
+  "pages_i" : 465
+}

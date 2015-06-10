@@ -1,0 +1,13 @@
+<div class="row admin_menu">
+  <div class="col-md-3 text-center"><a href="#/admin_books" class="selected">View Books</a></div>
+  <div class="col-md-3 text-center"><a href="#/admin_genres">View Genres</a></div>
+  <div class="col-md-3 text-center"><a href="#/admin_book_add">Add Book</a></div>
+  <div class="col-md-3 text-center"><a href="#/admin_genre_add">Add Genre</a></div>
+</div>
+<div style="margin-left: 50px">
+  <p><span style="width: 150px; display: inline-block">Book Id</span> <b style="width: 150px; display: inline-block"> Genre</b> <span>Book name</span></p>
+<ul class="list-unstyled">
+  <li ng-repeat="book in filteredBooks = (books | genreFilter: genreId)"><span style="width: 150px; display: inline-block">{{ book.id }}</span><b style="width: 150px; display: inline-block"> {{ book.genre.id }} {{ book.genre.name }}</b> <a href="#/books/{{book.id}}"> {{book.name}}</a></li>
+</ul>
+</div>
+  <h3 class="alert-info">Total books count:{{ filteredBooks.length }}</h3>

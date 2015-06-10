@@ -1,0 +1,12 @@
+{
+  "id" : "978-0812550706",
+  "cat" : ["book","paperback"],
+  "name" : "Ender's Game",
+  "author" : "Orson Scott Card",
+  "series_t" : "Ender",
+  "sequence_i" : 1,
+  "genre" : { "id":2, "name": "Science fiction"},
+  "inStock" : true,
+  "price" : 10.50,
+  "pages_i" : 375
+}

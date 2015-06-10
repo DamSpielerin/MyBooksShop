@@ -1,0 +1,12 @@
+{
+  "id" : "978-0553573403",
+  "cat" : ["book","paperback"],
+  "name" : "A Game of Thrones",
+  "author" : "George R.R. Martin",
+  "series_t" : "A Song of Ice and Fire",
+  "sequence_i" : 1,
+  "genre" : { "id":3, "name": "Fantasy"},
+  "inStock" : true,
+  "price" : 7.99,
+  "pages_i" : 445
+}

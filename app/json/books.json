@@ -1,0 +1,180 @@
+[
+  {
+    "id" : "978-0641723445",
+    "cat" : ["book","hardcover"],
+    "name" : "The Lightning Thief",
+    "author" : "Rick Riordan",
+    "series_t" : "Percy Jackson and the Olympians",
+    "sequence_i" : 1,
+    "genre" : { "id":3, "name": "Fantasy"},
+    "inStock" : true,
+    "price" : 12.50,
+    "pages_i" : 384
+  }
+,
+  {
+    "id" : "978-1423103349",
+    "cat" : ["book","paperback"],
+    "name" : "The Sea of Monsters",
+    "author" : "Rick Riordan",
+    "series_t" : "Percy Jackson and the Olympians",
+    "sequence_i" : 2,
+    "genre" : { "id":3, "name": "Fantasy"},
+    "inStock" : true,
+    "price" : 6.49,
+    "pages_i" : 304
+  }
+,
+  {
+    "id" : "978-1857995879",
+    "cat" : ["book","paperback"],
+    "name" : "Sophie's World : The Greek Philosophers",
+    "author" : "Jostein Gaarder",
+    "sequence_i" : 1,
+    "genre" : { "id":3, "name": "Fantasy"},
+    "inStock" : true,
+    "price" : 3.07,
+    "pages_i" : 64
+  }
+,
+  {
+    "id" : "978-1933988177",
+    "cat" : ["book","paperback"],
+    "name" : "Lucene in Action, Second Edition",
+    "author" : "Michael McCandless",
+    "sequence_i" : 1,
+    "genre" : { "id":1, "name": "IT"},
+    "inStock" : true,
+    "price" : 30.50,
+    "pages_i" : 475
+  }
+,
+  {
+    "id" : "978-0553573403",
+    "cat" : ["book","paperback"],
+    "name" : "A Game of Thrones",
+    "author" : "George R.R. Martin",
+    "series_t" : "A Song of Ice and Fire",
+    "sequence_i" : 1,
+    "genre" : { "id":3, "name": "Fantasy"},
+    "inStock" : true,
+    "price" : 7.99,
+    "pages_i" : 445
+  }
+,
+  {
+    "id" : "978-0553579908",
+    "cat" : ["book","paperback"],
+    "name" : "A Clash of Kings",
+    "author" : "George R.R. Martin",
+    "series_t" : "A Song of Ice and Fire",
+    "sequence_i" : 2,
+    "genre" : { "id":3, "name": "Fantasy"},
+    "inStock" : true,
+    "price" : 7.99,
+    "pages_i" : 470
+  }
+,
+  {
+    "id" : "978-055357342X",
+    "cat" : ["book","paperback"],
+    "name" : "A Storm of Swords",
+    "author" : "George R.R. Martin",
+    "series_t" : "A Song of Ice and Fire",
+    "sequence_i" : 3,
+    "genre" : { "id":3, "name": "Fantasy"},
+    "inStock" : true,
+    "price" : 7.99,
+    "pages_i" : 465
+  }
+,
+  {
+    "id" : "978-0553293354",
+    "cat" : ["book","paperback"],
+    "name" : "Foundation",
+    "author" : "Isaac Asimov",
+    "series_t" : "Foundation Novels",
+    "sequence_i" : 1,
+    "genre" : { "id":2, "name": "Science fiction"},
+    "inStock" : true,
+    "price" : 7.50,
+    "pages_i" : 385
+  }
+,
+  {
+    "id" : "978-0812521390",
+    "cat" : ["book","paperback"],
+    "name" : "The Black Company",
+    "author" : "Glen Cook",
+    "series_t" : "The Chronicles of The Black Company",
+    "sequence_i" : 1,
+    "genre" : { "id":3, "name": "Fantasy"},
+    "inStock" : false,
+    "price" : 6.59,
+    "pages_i" : 425
+  }
+,
+  {
+    "id" : "978-0812550706",
+    "cat" : ["book","paperback"],
+    "name" : "Ender's Game",
+    "author" : "Orson Scott Card",
+    "series_t" : "Ender",
+    "sequence_i" : 1,
+    "genre" : { "id":2, "name": "Science fiction"},
+    "inStock" : true,
+    "price" : 10.50,
+    "pages_i" : 375
+  }
+,
+  {
+    "id" : "978-0441385532",
+    "cat" : ["book","paperback"],
+    "name" : "Jhereg",
+    "author" : "Steven Brust",
+    "sequence_i" : 1,
+    "genre" : { "id":3, "name": "Fantasy"},
+    "inStock" : true,
+    "price" : 20.50,
+    "pages_i" : 479
+  }
+,
+  {
+    "id" : "978-0380014300",
+    "cat" : ["book","paperback"],
+    "name" : "Nine Princes In Amber",
+    "author" : "Roger Zelazny",
+    "series_t" : "The Chronicles of Amber",
+    "sequence_i" : 1,
+    "genre" : { "id":3, "name": "Fantasy"},
+    "inStock" : true,
+    "price" : 10.50,
+    "pages_i" : 475
+  }
+,
+  {
+    "id" : "978-0805080481",
+    "cat" : ["book","paperback"],
+    "name" : "The Book of Three",
+    "author" : "Lloyd Alexander",
+    "series_t" : "The Chronicles of Prydain",
+    "sequence_i" : 1,
+    "genre" : { "id":3, "name": "Fantasy"},
+    "inStock" : true,
+    "price" : 35.50,
+    "pages_i" : 754
+  }
+,
+  {
+    "id" : "978-080508049X",
+    "cat" : ["book","paperback"],
+    "name" : "The Black Cauldron",
+    "author" : "Lloyd Alexander",
+    "series_t" : "The Chronicles of Prydain",
+    "sequence_i" : 2,
+    "genre" : { "id":3, "name": "Fantasy"},
+    "inStock" : true,
+    "price" : 35.50,
+    "pages_i" : 754
+  }
+]

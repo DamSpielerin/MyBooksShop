@@ -1,0 +1,12 @@
+{
+  "id" : "978-0812521390",
+  "cat" : ["book","paperback"],
+  "name" : "The Black Company",
+  "author" : "Glen Cook",
+  "series_t" : "The Chronicles of The Black Company",
+  "sequence_i" : 1,
+  "genre" : { "id":3, "name": "Fantasy"},
+  "inStock" : false,
+  "price" : 6.59,
+  "pages_i" : 425
+}

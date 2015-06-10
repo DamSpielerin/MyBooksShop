@@ -1,0 +1,11 @@
+{
+  "id" : "978-1933988177",
+  "cat" : ["book","paperback"],
+  "name" : "Lucene in Action, Second Edition",
+  "author" : "Michael McCandless",
+  "sequence_i" : 1,
+  "genre" : { "id":1, "name": "IT"},
+  "inStock" : true,
+  "price" : 30.50,
+  "pages_i" : 475
+}

@@ -1,0 +1,12 @@
+{
+  "id" : "978-0553293354",
+  "cat" : ["book","paperback"],
+  "name" : "Foundation",
+  "author" : "Isaac Asimov",
+  "series_t" : "Foundation Novels",
+  "sequence_i" : 1,
+  "genre" : { "id":2, "name": "Science fiction"},
+  "inStock" : true,
+  "price" : 7.50,
+  "pages_i" : 385
+}

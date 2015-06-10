@@ -1,0 +1,15 @@
+<div class="row admin_menu">
+  <div class="col-md-3 text-center"><a href="#/admin_books">View Books</a></div>
+  <div class="col-md-3 text-center"><a href="#/admin_genres">View Genres</a></div>
+  <div class="col-md-3 text-center"><a href="#/admin_book_add">Add Book</a></div>
+  <div class="col-md-3 text-center"><a href="#/admin_genre_add" class="selected">Add Genre</a></div>
+</div>
+<div style="margin-left: 50px">
+  <form ng-submit="addGenre()">
+    <input type="text" ng-model="genreName">
+    <input type="submit" value="Add genre">
+  </form>
+  <ol>
+    <li ng-repeat="genre in genres"><a href="#/admin_books/{{genre.id}}">{{genre.name}}</a></li>
+  </ol>
+</div>

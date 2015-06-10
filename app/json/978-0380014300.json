@@ -1,0 +1,12 @@
+{
+  "id" : "978-0380014300",
+  "cat" : ["book","paperback"],
+  "name" : "Nine Princes In Amber",
+  "author" : "Roger Zelazny",
+  "series_t" : "The Chronicles of Amber",
+  "sequence_i" : 1,
+  "genre" : { "id":3, "name": "Fantasy"},
+  "inStock" : true,
+  "price" : 10.50,
+  "pages_i" : 475
+}

@@ -1,0 +1,12 @@
+{
+  "id" : "978-1423103349",
+  "cat" : ["book","paperback"],
+  "name" : "The Sea of Monsters",
+  "author" : "Rick Riordan",
+  "series_t" : "Percy Jackson and the Olympians",
+  "sequence_i" : 2,
+  "genre" : { "id":3, "name": "Fantasy"},
+  "inStock" : true,
+  "price" : 6.49,
+  "pages_i" : 304
+}

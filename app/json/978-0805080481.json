@@ -1,0 +1,12 @@
+{
+  "id" : "978-0805080481",
+  "cat" : ["book","paperback"],
+  "name" : "The Book of Three",
+  "author" : "Lloyd Alexander",
+  "series_t" : "The Chronicles of Prydain",
+  "sequence_i" : 1,
+  "genre" : { "id":3, "name": "Fantasy"},
+  "inStock" : true,
+  "price" : 35.50,
+  "pages_i" : 754
+}
